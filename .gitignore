@@ -1,0 +1,32 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.log
+
+# Build directories
+bin/
+build/
+dist/
+
+# Go vendor folder
+vendor/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Coverage and profiling files
+coverage.out
+*.prof

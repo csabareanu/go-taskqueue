@@ -1,0 +1,6 @@
+{
+    "server_address": "localhost:8080",
+    "max_workers": 5,
+    "log_level": "debug",
+    "timeout_seconds": 10
+}
