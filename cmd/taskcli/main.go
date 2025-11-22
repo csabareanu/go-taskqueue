@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/csabareanu/taskqueue/pkg/config"
+	"github.com/csabareanu/taskqueue/pkg/config"  //import pkg/config from this module
 )
 
 func main() {

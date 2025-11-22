@@ -34,8 +34,8 @@ func worker(id int, ch chan<- Result, wg *sync.WaitGroup) {
 			Value: id * i * 10,
 			Duration: duration,
 		}
-		fmt.Printf("[Worker %d] Finished all tasks.\n", id)
 	}
+	fmt.Printf("[Worker %d] Finished all tasks.\n", id)
 }
 
 func receiver(id int, ch <-chan Result, wg *sync.WaitGroup) {
@@ -51,7 +51,7 @@ func receiver(id int, ch <-chan Result, wg *sync.WaitGroup) {
 }
 
 func main()	{
-	const numWorkers = 10
+	const numWorkers = 3
 	var wgWorkers sync.WaitGroup //WaitGroup variable
 	var wgReceivers sync.WaitGroup 
 
